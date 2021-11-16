@@ -10,8 +10,8 @@ reports_dir := reports
 
 .PHONY: install
 install:
-	$(base_python) -m pip install setuptools wheel -U
-	$(base_python) -m pip install -U poetry --user
+	$(base_python) -m pip3 install setuptools wheel -U
+	$(base_python) -m pip3 install -U poetry --user
 	poetry install
 
 .PHONY: clean
